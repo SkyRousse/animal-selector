@@ -31,9 +31,26 @@
   <body>
     <div class="container">
       <header>
-        <h1>Epicodus Project Template</h1>
+        <h1>Animal Selector</h1>
       </header>
-      <h2>Hello World!</h2>
+      <h2>Select your favorite animal to learn about</h2>
+      <form>
+        <select class="form-control" id="animal-selector">
+          <option value=1 class="aardvark">Aardvark</option>
+          <option value=2 class="crocodile">Crocodile</option>
+          <option value=3 class="racoon">Racoon</option>
+        </select>
+        <button type="submit" class="btn btn-primary">Select animal</button>
+      </form>
+      <div id="aardvark">
+        <p>Add text here about aardvark</p>
+      </div>
+      <div id="crocodile">
+        <p>Add text here about crocodile</p>
+      </div>
+      <div id="racoon">
+        <p>Add text here about racoon</p>
+      </div>
       <p>
         This is a nice little index file.  It calls in five different files to support Bootstrap, JQuery, and your custom css and js.
       </p>
